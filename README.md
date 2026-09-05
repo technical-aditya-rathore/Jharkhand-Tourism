@@ -1,33 +1,7 @@
-# Vanachal — Jharkhand Tourism (React + Vite)
+#  Jharkhand Tourism 
 
-A multi-page tourism guide and booking desk for Jharkhand, built as a Single Page
-Application with React Router. Final-year project by **Aditya**.
 
-## Tech stack
 
-- **React 19** — component-driven UI
-- **Vite** — dev server & production bundler
-- **React Router v7** — client-side routing (`/`, `/destinations`, `/destinations/:id`,
-  `/booking`, `/contact`, `/privacy`, `/terms`)
-- Plain CSS (custom design system, no UI framework) — see `src/styles/global.css`
-- Browser Geolocation API — no external maps/geocoding key required
-- No backend: booking and contact "submissions" are handled entirely client-side for
-  demo purposes (see **Extending this project** below for how to wire up a real API)
-
-## Getting started
-
-```bash
-npm install
-npm run dev       # starts the dev server, usually http://localhost:5173
-```
-
-Other scripts:
-
-```bash
-npm run build      # production build to dist/
-npm run preview    # serve the production build locally
-npm run lint        # oxlint over src/
-```
 
 ## Project structure
 
